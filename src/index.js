@@ -7,6 +7,7 @@ require("dot-env");
 app.use("*", cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(defaultRouter);
 
 app.listen(process.env.port || 5000, () => {
   console.log(`Server started at port ${process.env.port || 5000}`);
