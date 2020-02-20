@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api-boilerplate-with-sequelize",
+  "version": "0.0.1",
+  "description": "NodeJS boilerplate API with Sequelize ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dot-env": "0.0.1",
+    "express": "^4.17.1",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "mysql2": "^2.1.0",
+    "prettier": "^1.19.1",
+    "sequelize": "^5.21.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
+}
