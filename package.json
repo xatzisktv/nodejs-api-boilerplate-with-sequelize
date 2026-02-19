@@ -15,7 +15,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dot-env": "0.0.1",
-    "express": "^4.17.3",
+    "express": "^4.22.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
     "mysql2": "^2.1.0",
