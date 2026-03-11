@@ -18,7 +18,7 @@
     "express": "^4.22.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
-    "mysql2": "^2.1.0",
+    "mysql2": "^3.9.8",
     "prettier": "^1.19.1",
     "sequelize": "^6.31.1"
   },
